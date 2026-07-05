@@ -1,0 +1,17 @@
+# OS / editor cruft
+.DS_Store
+Thumbs.db
+*.swp
+.idea/
+.vscode/
+
+# Secrets / local env — never commit
+.env
+.env.*
+*.pem
+*.key
+credentials.json
+
+# Node (in case tooling is added later)
+node_modules/
+npm-debug.log*
